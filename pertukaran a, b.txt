@@ -1,0 +1,16 @@
+Program Tukar;
+uses crt;
+var
+ a,b,c :integer;
+begin
+ writeln('Pertukaran nilai a dan b'); 
+ write('Masukan a:');readln(a)
+ write('Masukan b:');readln(b)
+
+ c:=a;
+ a:=b;
+ b:=c;
+ writeln('a:',a);
+ writeln('b:',b);
+ readkey;
+end.
